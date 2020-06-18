@@ -1,0 +1,43 @@
+.category-box{
+  font-size: 16px;
+  color: #595959;
+  .category-list{
+    width: 80%;
+    cursor: pointer;
+    line-height: 40px;
+    position: relative;
+    overflow: hidden;
+    padding: 0 20px 0 10px;
+    display: inline-block;;
+    .category-text{
+      min-width:70px;
+      float: left;
+      &:after{
+        content: ';';
+        margin:0 10px;
+      }
+      &:hover{
+        color: #FE5E00;
+      }
+    }
+
+  };
+  .details-category{
+    width:20%;
+    float: left;
+    line-height: 40px;
+    font-size: 18px !important;    
+  }
+  .more,.packup{
+    float: right;
+    top:12px;
+    right: 5px;
+    position: absolute;
+    z-index: 999;
+    width: 15px;
+    height: 10px;
+    background: url('../../assets/images/arrow.png')no-repeat top center;
+    background-size: 100% 100%;
+  }
+  .packup{transform:rotate(180deg);}
+}
