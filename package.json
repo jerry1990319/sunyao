@@ -5,7 +5,7 @@
   "dependencies": {
     "@tweenjs/tween.js": "^18",
     "antd": "^4.2.5",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "botframework-webchat": "^4.7.1",
     "cssnano": "^4.1.10",
     "eslint": "^5.16.0",
